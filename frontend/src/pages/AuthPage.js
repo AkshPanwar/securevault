@@ -336,7 +336,7 @@ const AuthPage = () => {
                       <Lock size={15} className="absolute left-4 top-1/2 -translate-y-1/2" style={{ color:'#444460' }} />
                       <input type={showPassword ? 'text' : 'password'} value={form.password}
                         onChange={e => setForm(p => ({ ...p, password: e.target.value }))}
-                        placeholder={mode === MODES.SIGNUP ? 'Min 8 characters' : '••••••••'} className="input-field pl-11 pr-11"
+                        placeholder={mode === MODES.SIGNUP ? 'Enter a strong password (min 8 characters)' : '••••••••'} className="input-field pl-11 pr-11"
                         style={errors.password ? { borderColor:'rgba(255,56,96,0.5)' } : {}} />
                       <button type="button" onClick={() => setShowPassword(!showPassword)}
                         className="absolute right-4 top-1/2 -translate-y-1/2 transition-colors"
