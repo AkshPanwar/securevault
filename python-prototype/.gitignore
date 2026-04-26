@@ -1,0 +1,6 @@
+# Runtime-generated artifacts
+user_data/
+secure_files/
+logs/
+*.log
+
