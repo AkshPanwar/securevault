@@ -4,7 +4,7 @@ A production-ready, full-stack secure file management system with AES-256 encryp
 
 ---
 
-## 📁 Project Structure
+## 📁 Project Structures
 
 ```
 securevault/
