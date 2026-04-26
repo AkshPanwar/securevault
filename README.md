@@ -3,6 +3,20 @@
 A production-ready, full-stack secure file management system with AES-256 encryption, 2FA, GSAP animations, and modern SaaS design.
 
 ---
+## 🚀 Features
+
+- 🔐 Secure Authentication (JWT + OTP)
+- 📁 File Upload & Management
+- 🛡️ AES-256 Encryption
+- 🔄 Token-based session handling
+- 🌐 Full-stack MERN application
+
+## 🛠️ Tech Stack
+
+- Frontend: React.js
+- Backend: Node.js, Express.js
+- Database: MongoDB
+- Authentication: JWT + OTP
 
 ## 📁 Project Structures
 <!-- Email error fix updated -->
