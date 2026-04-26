@@ -1,0 +1,10 @@
+# Secure File Management System — Requirements
+# Run: pip install -r requirements.txt
+
+# Core (all standard library — no install needed)
+# hashlib, hmac, secrets, json, logging, re, pathlib, time, struct, base64
+
+# Optional enhancements (uncomment if needed)
+# cryptography>=41.0.0    # For stronger AES implementation
+# pyotp>=2.9.0            # For cleaner TOTP
+# bcrypt>=4.1.0           # For stronger password hashing
